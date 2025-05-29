@@ -3,8 +3,8 @@ import xlwings as xw
 import os
 import sys
 
-csv_path = 'processar.csv'
-excel_path = 'registros.xlsx'
+csv_path = 'processar.csv' #Caminho + nome do documento com sua extensão
+excel_path = 'registros.xlsx' #Caminho + nome do documento com sua extensão
 
 # PROCURA A POSIÇÃO DA PRÓXIMA LINHA VAZIA
 def get_next_empty_row(ws):
